@@ -1,3 +1,8 @@
+## plot1.R -- Program to create a histogram for 'Global Active Power'
+## Created as part of Course Project 1 in the 
+## Exploratory Data Analysis Class on Coursera
+#########################################################
+
 ## Loading the full data file
 allData <- read.csv("household_power_consumption.txt", header=TRUE
                     ,sep=';', na.strings="?"
